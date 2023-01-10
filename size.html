@@ -1,0 +1,58 @@
+<!DOCTIME html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta name="author" content="Artur Latarin">
+		<meta name="description" content="size task">
+		<link href="size.css" rel="stylesheet" type="text/css"/>
+		<title>
+		calculator size
+		</title>
+	</head>
+	<body>
+	    <a href="index.html"><<<На главную</a>
+	    
+	    <h1>Узнай свой размер одежды</h1>
+	    <br><br>
+	    <div id='text1'>Производите измерение окружности груди так, чтобы сантиметр прошел через все выступающие точки. Для получения точного результата повторите процедуру измерения повторно.
+.<br>
+Обхват талии также измеряется при помощи сантиметра. Измеряя талию, не втягивайте живот, иначе показатель будет неверный.<br>
+
+Обхват бедер. Измеряется примерно на 15-18 сантиметров ниже уровня талии по самым выступающим точкам ягодиц.
+	    </div>
+	    <h3>Введите измерения в см</h3>
+	    <div id='blocksize'>
+		<form id="calc" onsubmit="return chekform(this)" method="post"> <!--onsubmit="return chekformh(this)"--> 
+		<!--label class="label_1" for="height"> Введите Ваш рост___</label>
+		<input type="text" name="heigt" placeholder="Ваш рост" id="height"><br><br-->
+		<label class="label_1" for="breast"> Введите обхват груди</label>
+		<input type="text" name="breast" placeholder="Oбхват груди" id="breast"><br><br>
+		<label class="label_1" for="waist"> Введите обхват талии</label>
+		<input type="text" name="waist" placeholder="Oбхват талии" id="waist"><br><br>
+		<label class="label_1" for="pelvis"> Введите обхват бедер</label>
+		<input type="text" name="pelvis" placeholder="Oбхват бедер" id="pelvis"><br><br>
+		
+		<input type="submit" name="submit" value="Посчитать размер">
+		<br><br>
+		<b> Cтандарт ____ </b><b>Russia </b><b> International</b><!--b>Европейский </b--><br><br/>
+		<em>Размер бюста__</em><span id="totalb"> </span>_____<span id="totalbu"> </span><br><br>
+		<u><em>Размер талии-__</em><span id="totalw"></span>_____<span id="totalwu"> </span></u><br><br>
+		<u><em>Размер бёдер___</em><span id="totalp"></span>_____<span id="totalpu"> </span></u><br><br>
+		
+		</form>
+		</div>
+
+		<script src="size.js">
+			
+		
+		</script>
+		<div>
+		</div>
+		
+		
+		
+		
+		
+	</body>
+
+</html>
